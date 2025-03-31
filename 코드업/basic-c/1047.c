@@ -5,10 +5,10 @@ int main(){
     scanf("%d", &a);
 
     // easy
-    printf("%d \n", a*2);
+    // printf("%d \n", a*2);
 
     // 시프트 연산자
-    printf("%d \n", a<<2);
+    printf("%d \n", a<<1);
 
     /*
 

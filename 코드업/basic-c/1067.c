@@ -4,16 +4,20 @@ int main(){
     int a;
     scanf("%d", &a);
 
-    if(a%2 == 0){
-        if(a > 0){
-            printf("plus \n");
+    if(a > 0){
+        printf("plus\n");
+        if(a % 2 == 0){
+            printf("even\n");
+        }else{
+            printf("odd\n");
         }
-        printf("even \n");
         
     }else{
-        if(a > 0){
-            printf("plus \n");
+        printf("minus\n");
+        if(a % 2 == 0){
+            printf("even\n");
+        }else{
+            printf("odd\n");
         }
-        printf("odd \n");
     }
 }

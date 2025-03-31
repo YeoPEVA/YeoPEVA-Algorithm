@@ -13,10 +13,11 @@ int main(){
         printf("good!! \n");
         break;
     case 'C':
-        printf("run \n");
+        printf("run! \n");
         break;
     case 'D':
         printf("slowly~ \n");
+        break;
     default:
         printf("what? \n");
     }
