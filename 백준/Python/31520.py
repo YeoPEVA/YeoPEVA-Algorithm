@@ -1,7 +1,11 @@
-x = list(map (int, input().split()))
-y = list(map (int, input().split()))
-
-for i in range(5):
-    x[i] += y[i]
-
-print('Y' if x.count(1) == 5 else 'N')
+s = input()
+start = 1
+chk = ''
+while len(s) != len(chk):
+    chk += str(start)
+    if s[:len(chk)] != chk:
+        print(-1)
+        break
+    start += 1
+else:
+    print(start - 1 if chk == s else -1)
